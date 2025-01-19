@@ -1,5 +1,5 @@
 <template>
-  <span :class="getBoardItemClasses" @click="select(field.id)"></span>
+  <span class="board-item" :class="getBoardItemClasses" @click="select(field.id)">$</span>
 </template>
 
 <script>
